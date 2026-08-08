@@ -29,7 +29,7 @@ def load_data(file_path):
 # --------------------------------------------------
 # LOAD DATASETS
 # --------------------------------------------------
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 gme = load_data(BASE_DIR / "final_gme_dataset.csv")
 amc = load_data(BASE_DIR / "final_amc_dataset.csv")
