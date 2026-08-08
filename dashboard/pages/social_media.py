@@ -29,10 +29,9 @@ def load_data(file_path):
 # LOAD DATASETS
 # --------------------------------------------------
 
-
-gme = load_data("final_gme_dataset.csv")
-amc = load_data("final_amc_dataset.csv")
-tsla = load_data("final_tsla_dataset.csv")
+gme = load_data("C:\Users\srima\social media market analysis\dashboard\final_gme_dataset.csv")
+amc = load_data("C:\Users\srima\social media market analysis\dashboard\final_amc_dataset.csv")
+tsla = load_data("C:\Users\srima\social media market analysis\dashboard\final_tsla_dataset.csv")
 
 
 # --------------------------------------------------
