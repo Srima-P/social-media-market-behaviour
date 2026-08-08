@@ -27,12 +27,12 @@ def load_data(file_path):
 
 # --------------------------------------------------
 # LOAD DATASETS
-# --------------------------------------------------
+# -------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent
 
-gme = load_data("C:\Users\srima\social media market analysis\dashboard\final_gme_dataset.csv")
-amc = load_data("C:\Users\srima\social media market analysis\dashboard\final_amc_dataset.csv")
-tsla = load_data("C:\Users\srima\social media market analysis\dashboard\final_tsla_dataset.csv")
-
+gme = load_data(BASE_DIR / "final_gme_dataset.csv")
+amc = load_data(BASE_DIR / "final_amc_dataset.csv")
+tsla = load_data(BASE_DIR / "final_tsla_dataset.csv")
 # --------------------------------------------------
 # SIDEBAR
 # --------------------------------------------------
